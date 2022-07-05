@@ -12,7 +12,7 @@ const Footer = () => {
           Sign up to our mailing list to find out more information and keep up
           to date about our activities
         </p>
-        <div className="flex w-full p-2">
+        <div className="flex w-full p-2 lg:justify-center">
           <input
             type="email"
             placeholder="email"

@@ -19,11 +19,11 @@ const About = () => {
           data-aos="fade-right"
           data-aos-delay="200"
           data-aos-duration="500"
-          className="lg:mr-[101px] shrink mx-auto"
+          className="lg:mr-[3em] shrink mx-auto"
         />
         <div className="flex flex-col items-center lg:p-0 gap-[39px]">
           <div className="flex items-center md:w-2/3  lg:w-full  mx-auto">
-            <div className="mr-[31px] w-[60px] h-[60px] rounded-full p-2 bg-[#f2c94c] items-center justify-center flex font-cerap font-normal text-[14px] leading-[114.5%] text-center tracking-[-0.01em] text-black ">
+            <div className="mr-[31px] w-[60px] h-[55px] rounded-full p-2 bg-[#f2c94c] items-center justify-center flex font-cerap font-normal text-[14px] leading-[114.5%] text-center tracking-[-0.01em] text-black ">
               Step&nbsp;<span className="font-brown">1</span>
             </div>
             <div className="flex flex-col">
@@ -36,10 +36,10 @@ const About = () => {
             </div>
           </div>
           <div className="flex items-center md:w-2/3  lg:w-full  mx-auto">
-            <div className="mr-[31px] w-[60px] h-[60px] rounded-full p-2 bg-[#f2f2f2] items-center justify-center flex font-cerap font-normal text-[14px] leading-[114.5%] text-center tracking-[-0.01em] text-black ">
+            <div className="mr-[31px] w-[60px] h-[55px] rounded-full p-2 bg-[#f2f2f2] items-center justify-center flex font-cerap font-normal text-[14px] leading-[114.5%] text-center tracking-[-0.01em] text-black ">
               Step&nbsp;<span className="font-brown">2</span>
             </div>
-            <div className="flex flex-col">
+            <div className="flex flex-col w-full">
               <h2 className="font-cerap font-bold text-[24px] leading-[112.5%] tracking-[-0.01em] text-white mb-2 ">
                 Find the perfect ride
               </h2>
@@ -51,7 +51,7 @@ const About = () => {
             </div>
           </div>
           <div className="flex items-center md:w-2/3  lg:w-full  mx-auto">
-            <div className="mr-[31px] w-[60px] h-[60px] rounded-full p-2 bg-[#f2f2f2] items-center justify-center flex font-cerap font-normal text-[14px] leading-[114.5%] text-center tracking-[-0.01em] text-black ">
+            <div className="mr-[31px] w-[60px] h-[55px] rounded-full p-2 bg-[#f2f2f2] items-center justify-center flex font-cerap font-normal text-[14px] leading-[114.5%] text-center tracking-[-0.01em] text-black ">
               Step&nbsp;<span className="font-brown">3</span>
             </div>
             <div className="flex flex-col">
