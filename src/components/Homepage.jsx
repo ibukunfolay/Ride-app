@@ -7,7 +7,7 @@ import { IoClose } from "react-icons/io5";
 const Homepage = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
   return (
-    <div className="flex flex-col px-4  lg:pl-[129px] lg:pr-[76px] lg:min-h-[665px] h-auto ">
+    <div className="flex flex-col px-4 lg:px-0  lg:pl-[129px] lg:pr-[76px] lg:min-h-[665px] h-auto ">
       <nav className="flex w-full justify-between items-center md:pt-[43px] pt-[1em] mb-[2em]">
         <a href="#" className="md:h-auto md:w-auto h-[35px] w-[150px] ">
           <img
@@ -55,7 +55,10 @@ const Homepage = () => {
         </div>
       </nav>
       <div className="flex flex-wrap lg:flex-nowrap w-full lg:pl-[50px] lg:pr-[60px] items-center">
-        <div className="flex flex-col lg:w-[511px] w-full" data-aos="fade-up">
+        <div
+          className="flex flex-col lg:w-[511px] lg:mr-[21px] w-full"
+          data-aos="fade-up"
+        >
           <h2 className="font-cerap font-bold lg:text-[48px] text-center lg:text-justify text-[32px] leading-[53px] tracking-[-0.01em] text-[#232c35] mb-4 ">
             Compare & book
             <br />
