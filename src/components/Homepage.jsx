@@ -54,11 +54,8 @@ const Homepage = () => {
           )}
         </div>
       </nav>
-      <div className="flex flex-wrap lg:flex-nowrap w-full lg:pl-[59px] lg:pr-[67px] items-center">
-        <div
-          className="flex flex-col lg:w-[511px] lg:shrink-0 w-full"
-          data-aos="fade-up"
-        >
+      <div className="flex flex-wrap lg:flex-nowrap w-full lg:pl-[50px] lg:pr-[60px] items-center">
+        <div className="flex flex-col lg:w-[511px] w-full" data-aos="fade-up">
           <h2 className="font-cerap font-bold lg:text-[48px] text-center lg:text-justify text-[32px] leading-[53px] tracking-[-0.01em] text-[#232c35] mb-4 ">
             Compare & book
             <br />
@@ -73,7 +70,7 @@ const Homepage = () => {
         <img
           src={image1}
           alt="mobile app"
-          className="lg:h-[551px] lg:w-[577px] shrink mx-auto "
+          className="lg:h-[551px] lg:w-[577px] shrink mx-auto lg:mx-0 "
           data-aos="fade-left"
           data-aos-delay="200"
           data-aos-duration="1000"
