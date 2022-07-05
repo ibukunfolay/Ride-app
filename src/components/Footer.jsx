@@ -12,11 +12,11 @@ const Footer = () => {
           Sign up to our mailing list to find out more information and keep up
           to date about our activities
         </p>
-        <div className="flex items-center">
+        <div className="flex w-full p-2">
           <input
             type="email"
             placeholder="email"
-            className="h-[48px] md:w-[342px] w-4/5 bg-[#f2c94c] placeholder-white flex text-white items-center md:pl-[36px] pl-[20px] font-brown md:text-[16px] text-[14px] outline-none border-2 border-white mr-[11px] "
+            className="h-[48px] md:w-[342px] w-full bg-[#f2c94c] placeholder-white flex text-white items-center md:pl-[36px] pl-[20px] font-brown md:text-[16px] text-[14px] outline-none border-2 border-white mr-[11px] "
           />
           <input
             type="button"
@@ -29,9 +29,9 @@ const Footer = () => {
         <span className="font-brown font-normal text-[11px] leading-[9px] text-white ">
           &copy; {date} Whichride - All rightsreserved.
         </span>
-        <div className="font-brown font-normal text-[11px] leading-[9px] flex md:grid-rows-1 md:gap-[1em] text-white">
+        <div className="font-brown font-normal text-[11px] leading-[9px] flex  grid-rows-1 md:gap-[1em] gap-[8px] text-white">
           <a href="#">Privacy Policy</a>
-          <a href="#">Terms and Conditions</a>
+          <a href="#">Terms & Conditions</a>
         </div>
       </div>
     </div>
