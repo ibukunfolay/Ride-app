@@ -3,7 +3,7 @@ import iphone from "../assets/iPhone.png";
 
 const About = () => {
   return (
-    <div className="min-h-screen bg-[#5c1a8d] w-full pt-[116px] pb-[3em]">
+    <div className="min-h-screen bg-[#5c1a8d] w-full md:pt-[116px] pt-[3em] pb-[3em]">
       <h2 className="flex font-cerap font-bold lg:text-[36px] text-[28px] leading-[112.5%] text-center mx-auto tracking-[-0.01em] text-white lg:w-[614px] md:w-2/3 w-full px-2 mb-[1em] ">
         Whichride brings together multiple ride hailing providers and local taxi
         firms in one app
