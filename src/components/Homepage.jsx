@@ -54,9 +54,9 @@ const Homepage = () => {
           )}
         </div>
       </nav>
-      <div className="flex flex-wrap lg:flex-nowrap w-full lg:pl-[50px] lg:pr-[60px] items-center">
+      <div className="flex flex-wrap lg:flex-nowrap w-full items-center">
         <div
-          className="flex flex-col lg:w-[511px] lg:shrink-0 lg:mr-[21px] w-full"
+          className="flex flex-col lg:w-[511px] lg:mr-[21px] w-full"
           data-aos="fade-up"
         >
           <h2 className="font-cerap font-bold lg:text-[48px] text-center lg:text-justify text-[32px] leading-[53px] tracking-[-0.01em] text-[#232c35] mb-4 ">
@@ -73,7 +73,7 @@ const Homepage = () => {
         <img
           src={image1}
           alt="mobile app"
-          className="lg:h-[551px] lg:w-[577px] shrink lg:shrink-0 mx-auto  "
+          className="lg:h-[551px] lg:w-[577px] shrink mx-auto  "
           data-aos="fade-left"
           data-aos-delay="200"
           data-aos-duration="1000"
