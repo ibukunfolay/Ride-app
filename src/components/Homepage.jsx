@@ -70,7 +70,7 @@ const Homepage = () => {
         <img
           src={image1}
           alt="mobile app"
-          className="lg:h-[551px] lg:w-[577px] shrink mx-auto lg:mx-0 "
+          className="lg:h-[551px] lg:w-[577px] shrink lg:shrink-0 mx-auto  "
           data-aos="fade-left"
           data-aos-delay="200"
           data-aos-duration="1000"
