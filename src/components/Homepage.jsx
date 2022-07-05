@@ -56,12 +56,12 @@ const Homepage = () => {
       </nav>
       <div className="flex flex-wrap lg:flex-nowrap w-full lg:pl-[59px] lg:pr-[67px] items-center">
         <div className="flex flex-col lg:w-[511px] w-full" data-aos="fade-up">
-          <h2 className="font-cerap font-bold md:text-[48px] text-center lg:text-justify text-[32px] leading-[53px] tracking-[-0.01em] text-[#232c35] mb-4 ">
+          <h2 className="font-cerap font-bold lg:text-[48px] text-center lg:text-justify text-[32px] leading-[53px] tracking-[-0.01em] text-[#232c35] mb-4 ">
             Compare & book
             <br />
             ride-hailing providers
           </h2>
-          <p className="font-cerap font-medium md:text-[20px] text-center lg:text-justify text-[16px] leading-[114.5%] tracking-[0.01em] text-[#4f4f4f] ">
+          <p className="font-cerap font-medium lg:text-[20px] text-center lg:text-justify text-[16px] leading-[114.5%] tracking-[0.01em] text-[#4f4f4f] ">
             Save money and time with WhichRide.
             <br />
             Think Compare the market but for taxis.
