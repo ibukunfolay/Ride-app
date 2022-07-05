@@ -12,16 +12,16 @@ const About = () => {
         Allowing riders to select the provider that offers the best price,
         service or travel time, then seamlessly book within the app
       </p>
-      <div className="lg:pl-[284px] lg:pr-[290px] px-[2em] w-full flex items-center flex-wrap lg:flex-nowrap">
+      <div className="lg:pl-[284px] lg:pr-[304px] px-[2em] w-full flex items-center flex-wrap lg:flex-nowrap">
         <img
           src={iphone}
           alt="iphone"
           data-aos="fade-right"
           data-aos-delay="200"
           data-aos-duration="500"
-          className=" shrink mx-auto"
+          className="shrink mx-auto"
         />
-        <div className="flex flex-col items-center lg:p-0 gap-[39px]">
+        <div className="flex flex-col items-center lg:w-[469px] lg:p-0 gap-[39px]">
           <div className="flex items-center md:w-2/3  lg:w-full  mx-auto">
             <div className="mr-[31px] w-[60px] h-[55px] rounded-full p-2 bg-[#f2c94c] items-center justify-center flex font-cerap font-normal text-[14px] leading-[114.5%] text-center tracking-[-0.01em] text-black ">
               Step&nbsp;<span className="font-brown">1</span>
