@@ -19,7 +19,7 @@ const About = () => {
           data-aos="fade-right"
           data-aos-delay="200"
           data-aos-duration="500"
-          className="lg:mr-[3em] shrink mx-auto"
+          className=" shrink mx-auto"
         />
         <div className="flex flex-col items-center lg:p-0 gap-[39px]">
           <div className="flex items-center md:w-2/3  lg:w-full  mx-auto">
