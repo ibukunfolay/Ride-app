@@ -55,10 +55,7 @@ const Homepage = () => {
         </div>
       </nav>
       <div className="flex flex-wrap lg:flex-nowrap w-full items-center">
-        <div
-          className="flex flex-col lg:w-[511px] lg:mr-[21px] w-full"
-          data-aos="fade-up"
-        >
+        <div className="flex flex-col lg:w-[511px] w-full" data-aos="fade-up">
           <h2 className="font-cerap font-bold lg:text-[48px] text-center lg:text-justify text-[32px] leading-[53px] tracking-[-0.01em] text-[#232c35] mb-4 ">
             Compare & book
             <br />
