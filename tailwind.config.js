@@ -1,6 +1,4 @@
 /** @type {import('tailwindcss').Config} */
-const defaultTheme = require("tailwindcss/defaultTheme");
-
 module.exports = {
   future: {
     // removeDeprecatedGapUtilities: true,
@@ -330,6 +328,8 @@ module.exports = {
     backgroundImage: {
       split:
         "linear-gradient(to right, rgba(167, 146, 254, 0.07) 50%, white 50%);",
+      split2:
+        "linear-gradient(to bottom, rgba(167, 146, 254, 0.07) 50%, white 50%);",
     },
     backgroundOpacity: (theme) => theme("opacity"),
     backgroundPosition: {

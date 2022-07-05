@@ -3,20 +3,27 @@ import iphone from "../assets/iPhone.png";
 
 const About = () => {
   return (
-    <div className="min-h-screen bg-[#5c1a8d] w-full pt-[116px]">
-      <h2 className="flex font-cerap font-bold text-[36px] leading-[112.5%] text-center mx-auto tracking-[-0.01em] text-white w-[614px] mb-[1em] ">
+    <div className="min-h-screen bg-[#5c1a8d] w-full pt-[116px] pb-[3em]">
+      <h2 className="flex font-cerap font-bold lg:text-[36px] text-[28px] leading-[112.5%] text-center mx-auto tracking-[-0.01em] text-white lg:w-[614px] md:w-2/3 w-full px-2 mb-[1em] ">
         Whichride brings together multiple ride hailing providers and local taxi
         firms in one app
       </h2>
-      <p className="font-cerap font-medium text-[20px] leading-[114.5%] text-center tracking-[-0.01em] text-[#e0e0e0] mx-auto w-[497px] ">
+      <p className="font-cerap font-medium lg:text-[20px] text-[16px] leading-[114.5%] text-center tracking-[-0.01em] text-[#e0e0e0] mx-auto lg:w-[497px] md:w-2/3 w-full px-2">
         Allowing riders to select the provider that offers the best price,
         service or travel time, then seamlessly book within the app
       </p>
-      <div className="pl-[294px] pr-[304px] flex items-center ">
-        <img src={iphone} alt="iphone" />
-        <div className="flex flex-col items-center p-0 gap-[39px]">
-          <div className="flex">
-            <div className="mr-[2em] w-[50px] h-[50px] rounded-full p-2 bg-[#f2c94c] items-center justify-center flex font-cerap font-normal text-[14px] leading-[114.5%] text-center tracking-[-0.01em] text-black ">
+      <div className="lg:pl-[294px] lg:pr-[304px] px-[2em] w-full flex items-center flex-wrap lg:flex-nowrap">
+        <img
+          src={iphone}
+          alt="iphone"
+          data-aos="fade-right"
+          data-aos-delay="200"
+          data-aos-duration="500"
+          className="lg:mr-[101px] shrink mx-auto"
+        />
+        <div className="flex flex-col items-center lg:p-0 gap-[39px]">
+          <div className="flex items-center md:w-2/3  lg:w-full  mx-auto">
+            <div className="mr-[31px] w-[60px] h-[60px] rounded-full p-2 bg-[#f2c94c] items-center justify-center flex font-cerap font-normal text-[14px] leading-[114.5%] text-center tracking-[-0.01em] text-black ">
               Step&nbsp;<span className="font-brown">1</span>
             </div>
             <div className="flex flex-col">
@@ -28,8 +35,8 @@ const About = () => {
               </p>
             </div>
           </div>
-          <div className="flex">
-            <div className="mr-[2em] w-[50px] h-[50px] rounded-full p-2 bg-[#f2f2f2] items-center justify-center flex font-cerap font-normal text-[14px] leading-[114.5%] text-center tracking-[-0.01em] text-black ">
+          <div className="flex items-center md:w-2/3  lg:w-full  mx-auto">
+            <div className="mr-[31px] w-[60px] h-[60px] rounded-full p-2 bg-[#f2f2f2] items-center justify-center flex font-cerap font-normal text-[14px] leading-[114.5%] text-center tracking-[-0.01em] text-black ">
               Step&nbsp;<span className="font-brown">2</span>
             </div>
             <div className="flex flex-col">
@@ -43,8 +50,8 @@ const About = () => {
               </p>
             </div>
           </div>
-          <div className="flex">
-            <div className="mr-[2em] w-[50px] h-[50px] rounded-full p-2 bg-[#f2f2f2] items-center justify-center flex font-cerap font-normal text-[14px] leading-[114.5%] text-center tracking-[-0.01em] text-black ">
+          <div className="flex items-center md:w-2/3  lg:w-full  mx-auto">
+            <div className="mr-[31px] w-[60px] h-[60px] rounded-full p-2 bg-[#f2f2f2] items-center justify-center flex font-cerap font-normal text-[14px] leading-[114.5%] text-center tracking-[-0.01em] text-black ">
               Step&nbsp;<span className="font-brown">3</span>
             </div>
             <div className="flex flex-col">
