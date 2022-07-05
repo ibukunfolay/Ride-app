@@ -17,13 +17,13 @@ const Homepage = () => {
           />
         </a>
         <ul className="hidden lg:flex grid gap-[33px] grid-cols-3">
-          <li className="font-cerap font-bold text-[14px] leading-[18px] text-[#2c3539]">
+          <li className="font-cerap font-bold text-[14px] leading-[18px] text-[#2c3539] hover:text-slate-400">
             <a href="#">The App</a>
           </li>
-          <li className="font-cerap font-bold text-[14px] leading-[18px] text-[#2c3539]">
+          <li className="font-cerap font-bold text-[14px] leading-[18px] text-[#2c3539] hover:text-slate-400">
             <a href="#">About Us</a>
           </li>
-          <li className="font-cerap font-bold text-[14px] leading-[18px] text-[#2c3539]">
+          <li className="font-cerap font-bold text-[14px] leading-[18px] text-[#2c3539] hover:text-slate-400">
             <a href="#">Get in Touch</a>
           </li>
         </ul>
@@ -40,13 +40,13 @@ const Homepage = () => {
                 className="text-space cursor-pointer absolute top-[20px] right-[20px] "
               />
               <ul className="flex flex-col justify-center items-center">
-                <li className="font-cerap font-bold text-[16px] leading-[18px] text-[#2c3539] m-[1em]">
+                <li className="font-cerap font-bold text-[16px] leading-[18px] text-[#2c3539] hover:text-slate-400 m-[1em]">
                   <a href="#">The App</a>
                 </li>
-                <li className="font-cerap font-bold text-[16px] leading-[18px] text-[#2c3539] m-[1em]">
+                <li className="font-cerap font-bold text-[16px] leading-[18px] text-[#2c3539] hover:text-slate-400 m-[1em]">
                   <a href="#">About Us</a>
                 </li>
-                <li className="font-cerap font-bold text-[16px] leading-[18px] text-[#2c3539] m-[1em]">
+                <li className="font-cerap font-bold text-[16px] leading-[18px] text-[#2c3539] hover:text-slate-400 m-[1em]">
                   <a href="#">Get in Touch</a>
                 </li>
               </ul>
