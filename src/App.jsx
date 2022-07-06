@@ -30,7 +30,7 @@ const App = () => {
       <Homepage />
       <About />
       <More />
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };
