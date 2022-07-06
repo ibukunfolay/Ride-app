@@ -25,7 +25,7 @@ const Footer = () => {
           />
         </div>
       </div>
-      <div className="flex justify-between h-[73px] bg-[#deb63d] md:px-[139px] px-1 items-center w-full ">
+      <div className="flex justify-between h-[73px] bg-[#deb63d] lg:px-[139px] px-1 items-center w-full ">
         <span className="font-brown font-normal text-[11px] leading-[9px] text-white ">
           &copy; {date} Whichride - All rightsreserved.
         </span>
