@@ -29,7 +29,7 @@ const Footer = () => {
         <span className="font-brown font-normal text-[11px] leading-[9px] text-white ">
           &copy; {date} Whichride - All rightsreserved.
         </span>
-        <div className="font-brown font-normal text-[11px] leading-[9px] flex  grid-rows-1 md:gap-[1em] gap-[8px] text-white">
+        <div className="font-brown font-normal text-[11px] leading-[9px] flex  grid grid-rows-1 md:gap-[1em] gap-[8px] text-white">
           <a href="#">Privacy Policy</a>
           <a href="#">Terms & Conditions</a>
         </div>
