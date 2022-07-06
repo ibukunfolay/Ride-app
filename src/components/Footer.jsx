@@ -29,8 +29,10 @@ const Footer = () => {
         <span className="font-brown font-normal text-[11px] leading-[9px] text-white ">
           &copy; {date} Whichride - All rightsreserved.
         </span>
-        <div className="font-brown font-normal text-[11px] leading-[9px] flex  grid-rows-1 md:gap-[1em] gap-[8px] text-white">
-          <a href="#">Privacy Policy</a>
+        <div className="font-brown font-normal text-[11px] leading-[9px] flex text-white">
+          <a href="#" className="lg:mr-[1em] mr-2">
+            Privacy Policy
+          </a>
           <a href="#">Terms & Conditions</a>
         </div>
       </div>
